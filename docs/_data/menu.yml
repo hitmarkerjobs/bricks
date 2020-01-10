@@ -1,0 +1,24 @@
+- section:
+  menu:
+    - label: Introduction
+      url: /
+    - label: Release Notes
+      url: /release-notes
+
+- section: Library
+  menu:
+    - label: Typography
+      url: /typography
+    - label: Colors
+      url: /colors
+    - label: Buttons
+      url: /buttons
+    - label: Forms
+      url: /Forms
+    - label: Borders
+      url: /borders
+
+- section: Components
+  menu:
+    - label: Cards
+      url: /cards

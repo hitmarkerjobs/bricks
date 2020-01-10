@@ -1,0 +1,17 @@
+---
+layout: default
+title: Release Notes
+permalink: /release-notes
+---
+
+{% assign release_notes = site.release_notes | sort: 'version' %}
+{% for release_note in release_notes reversed %}
+  <div class="flex {% if forloop.last == false %}border-b border-charlie pb-8 mb-8{% endif %}">
+    <div class="flex-none text-delta text-sm">{{ release_note.version }}</div>
+
+    <div class="flex-auto ml-8">
+      <div class="text-delta text-sm mb-2">{{ release_note.date | date: "%-d %B %Y" }}</div>
+      <div class="content">{{ release_note }}</div>
+    </div>
+  </div>
+{% endfor %}

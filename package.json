@@ -1,8 +1,7 @@
 {
   "name": "@hitmarker/bricks",
-  "version": "1.0.0",
   "description": "",
-  "main": "",
+  "version": "1.0.1",
   "author": "Hitmarker",
   "dependencies": {
     "tailwindcss": "1.2.0-canary.5"
@@ -15,5 +14,8 @@
   "bugs": {
     "url": "https://github.com/hitmarkerjobs/bricks/issues"
   },
-  "homepage": "https://github.com/hitmarkerjobs/bricks#readme"
+  "homepage": "https://github.com/hitmarkerjobs/bricks#readme",
+  "directories": {
+    "doc": "docs"
+  }
 }
