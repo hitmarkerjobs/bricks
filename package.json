@@ -1,10 +1,19 @@
 {
-  "name": "bricks",
+  "name": "@hitmarker/bricks",
   "version": "1.0.0",
   "description": "",
   "main": "",
   "author": "Hitmarker",
   "dependencies": {
-    "tailwindcss": "1.1.4"
-  }
+    "tailwindcss": "1.2.0-canary.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hitmarkerjobs/bricks.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hitmarkerjobs/bricks/issues"
+  },
+  "homepage": "https://github.com/hitmarkerjobs/bricks#readme"
 }
