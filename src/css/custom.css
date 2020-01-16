@@ -1,3 +1,14 @@
-body {
-  background-color: thistle;
+@media screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 2dppx) {
+	body {
+		-moz-osx-font-smoothing: grayscale;
+		-webkit-font-smoothing: antialiased;
+	}
+}
+
+svg {
+  fill: currentColor;
+}
+
+b, strong {
+  @apply font-bold;
 }
