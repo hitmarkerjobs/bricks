@@ -1,7 +1,7 @@
 {
   "name": "@hitmarker/bricks",
   "description": "",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Hitmarker",
   "devDependencies": {
     "@tailwindcss/custom-forms": "^0.2.1",
