@@ -3,7 +3,7 @@
   "description": "",
   "version": "1.0.2",
   "author": "Hitmarker",
-  "devDependencies": {
+  "dependencies": {
     "@tailwindcss/custom-forms": "^0.2.1",
     "tailwindcss": "1.2.0-canary.5",
     "tailwindcss-theming": "^2.3.0"
