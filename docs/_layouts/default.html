@@ -6,7 +6,7 @@
 <title>Bricks | Hitmarker</title>
 <meta name="description" content="Bricks is Hitmarker's design system.">
 <link rel="stylesheet" href="/assets/css/bricks.css">
-{% feed_meta %}
+<link rel="stylesheet" href="/assets/css/highlight.css">
 {% if jekyll.environment == 'production' %}
   areet?
 {% endif %}
@@ -16,6 +16,13 @@
   <div class="flex h-screen">
     <div class="flex-none flex flex-col w-64 bg-bravo text-sm border-r border-charlie overflow-y-scroll p-8">
       <img src="/assets/img/bricks.svg" class="w-12 h-12">
+
+
+    <label class="theme-switch" for="checkbox">
+        <input type="checkbox" id="checkbox" />
+        <div class="slider round"></div>
+  </label>
+
 
       <div class="flex-auto my-5">
         {% for item in site.data.menu %}
@@ -29,7 +36,7 @@
         {% endfor %}
       </div>
 
-      <div class="text-delta text-xs">&copy; {{ 'now' | date: "%Y" }} <a target="_blank" href="https://hitmarkerjobs.com" class="text-delta">Hitmarker Ltd.</a></div>
+      <div class="text-delta text-xs">&copy; {{ 'now' | date: "%Y" }} <a target="_blank" href="https://hitmarkerjobs.com" class="text-delta">Hitmarker</a></div>
     </div>
 
     <div class="flex-auto overflow-y-scroll p-4 lg:p-8">
@@ -40,5 +47,9 @@
       <div class="content">{{ content }}</div>
     </div>
   </div>
+
+  <script src="/assets/js/darkmode.js"></script>
+  <script src="/assets/js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
 </body>
 </html>

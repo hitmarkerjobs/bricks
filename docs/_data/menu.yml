@@ -11,14 +11,12 @@
       url: /typography
     - label: Colors
       url: /colors
-    - label: Buttons
-      url: /buttons
     - label: Forms
-      url: /Forms
+      url: /forms
     - label: Borders
       url: /borders
 
 - section: Components
   menu:
-    - label: Cards
-      url: /cards
+    - label: Buttons
+      url: /buttons

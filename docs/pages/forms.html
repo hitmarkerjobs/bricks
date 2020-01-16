@@ -1,0 +1,74 @@
+---
+layout: default
+title: Forms
+permalink: /forms
+---
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20.5 8.5v-5h-5L12 0 8.5 3.5h-5v5L0 12l3.5 3.5v5h5L12 24l3.5-3.5h5v-5L24 12l-3.5-3.5zm-8.5 10c-3.6 0-6.5-2.9-6.5-6.5S8.4 5.5 12 5.5s6.5 2.9 6.5 6.5-2.9 6.5-6.5 6.5z"/><circle cx="12" cy="12" r="5"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20.5 8.5v-5h-5L12 0 8.5 3.5h-5v5L0 12l3.5 3.5v5h5L12 24l3.5-3.5h5v-5L24 12l-3.5-3.5zm-8.5 10c-3.6 0-6.5-2.9-6.5-6.5S8.4 5.5 12 5.5s6.5 2.9 6.5 6.5-2.9 6.5-6.5 6.5z"/><path d="M12 7v10c2.8 0 5-2.2 5-5s-2.2-5-5-5z"/></svg>
+{% highlight html %}
+<label class="block">
+  <span class="text-gray-700">Name</span>
+  <input placeholder="Jane Doe" class="form-input mt-1 block w-full">
+</label>
+{% endhighlight %}
+
+<label class="block">
+  <span class="form-label mb-1">Textarea</span>
+  <textarea class="form-textarea block w-full" rows="3" placeholder="Enter some long form content."></textarea>
+</label>
+
+
+<label class="block">
+  <span class="form-label mb-1">Name</span>
+  <input class="form-input block w-full" placeholder="Jane Doe">
+</label>
+
+
+
+<div class="block">
+  <span class="text-gray-700">Checkboxes</span>
+  <div class="mt-2">
+    <div>
+      <label class="inline-flex items-center">
+        <input type="checkbox" class="form-checkbox" checked>
+        <span class="ml-2">Option 1</span>
+      </label>
+    </div>
+    <div>
+      <label class="inline-flex items-center">
+        <input type="checkbox" class="form-checkbox">
+        <span class="ml-2">Option 2</span>
+      </label>
+    </div>
+    <div>
+      <label class="inline-flex items-center">
+        <input type="checkbox" class="form-checkbox">
+        <span class="ml-2">Option 3</span>
+      </label>
+    </div>
+  </div>
+</div>
+
+<div class="mt-4">
+  <span class="text-gray-700">Account Type</span>
+  <div class="mt-2">
+    <label class="inline-flex items-center">
+      <input type="radio" class="form-radio" name="accountType" value="personal">
+      <span class="ml-2">Personal</span>
+    </label>
+    <label class="inline-flex items-center ml-6">
+      <input type="radio" class="form-radio" name="accountType" value="busines">
+      <span class="ml-2">Business</span>
+    </label>
+  </div>
+</div>
+
+<label class="block mt-4">
+  <span class="text-gray-700">Requested Limit</span>
+  <select class="form-select mt-1 block w-full">
+    <option>$1,000</option>
+    <option>$5,000</option>
+    <option>$10,000</option>
+    <option>$25,000</option>
+  </select>
+</label>
