@@ -1,7 +1,7 @@
 module.exports = {
   plugins: [
     require("postcss-import"),
-    require("tailwindcss")("./tailwind.config.js"),
+    require("@hitmarker/bricks/node_modules/tailwindcss")("./tailwind.config.js"),
     require("autoprefixer")
   ]
 };

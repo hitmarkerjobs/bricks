@@ -1,12 +1,10 @@
 {
   "name": "@hitmarker/bricks",
   "description": "",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "author": "Hitmarker",
-  "peerDependencies": {
-    "tailwindcss": "1.2.0-canary.5"
-  },
   "dependencies": {
+    "tailwindcss": "1.2.0-canary.5",
     "@tailwindcss/custom-forms": "^0.2.1",
     "tailwindcss-theming": "^2.3.0"
   },
