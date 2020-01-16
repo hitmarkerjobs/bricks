@@ -5,8 +5,8 @@
   "author": "Hitmarker",
   "dependencies": {
     "tailwindcss": "1.2.0-canary.5",
-    "@tailwindcss/custom-forms": "^0.2.1",
-    "tailwindcss-theming": "^2.3.0"
+    "@tailwindcss/custom-forms": "0.2.1",
+    "tailwindcss-theming": "2.3.0"
   },
   "repository": {
     "type": "git",
