@@ -5,27 +5,35 @@ const mainTheme = new Theme()
   .colors({
     'alpha': '#FFFFFF',
     'bravo': '#F5F8FA',
-    'charlie': '#E6ECF0',
-    'delta': '#657786',
-    'echo': '#14171A',
+    'charlie': '#E1E8ED',
+    'delta': '#AAB8C2',
+    'echo': '#657786',
+    'foxtrot': '#14171A',
+
+    'brand': '#FF5800',
+    'black': '#14171A',
+    'slate': '#657786',
+    'gray': '#AAB8C2',
+    'silver': '#E1E8ED',
+    'ghost': '#F5F8FA',
+    'white': '#FFFFFF',
 
     'green': '#17BF63',
     'yellow': '#FFAD1F',
-    'orange': '#FF6810',
     'red': '#E0245E',
 
-    'black': '#121212',
-    'white': '#FFFFFF',
+    'transparent': 'transparent',
   })
 ;
 
 const darkTheme = new Theme()
   .colors({
-    'alpha': '#000000',
-    'bravo': '#15181C',
-    'charlie': '#2F3336',
+    'alpha': '#14171A',
+    'bravo': '#1f2227',
+    'charlie': '#2e3236',
     'delta': '#6E767D',
-    'echo': '#FFFFFF',
+    'echo': '#B9B9B9',
+    'foxtrot': '#FFFFFF',
   })
 ;
 
