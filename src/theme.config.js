@@ -27,7 +27,7 @@ const darkTheme = new Theme()
     'charlie': '#353535',
     'delta': '#606060',
     'echo': '#8C8C8C',
-    'foxtrot': '#FFF',
+    'foxtrot': '#FFFFFF',
   })
 ;
 
