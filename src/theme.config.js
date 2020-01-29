@@ -2,7 +2,6 @@ const { ThemeBuilder, Theme } = require('tailwindcss-theming');
 
 const mainTheme = new Theme()
   .default()
-  .assignable()
   .colors({
     'alpha': '#FFFFFF',
     'bravo': '#F5F8FA',
@@ -12,13 +11,7 @@ const mainTheme = new Theme()
     'foxtrot': '#14171A',
 
     'brand': '#FF5800',
-    'black': '#14171A',
-    'slate': '#657786',
-    'gray': '#AAB8C2',
-    'silver': '#E1E8ED',
-    'ghost': '#F5F8FA',
     'white': '#FFFFFF',
-
     'green': '#17BF63',
     'yellow': '#FFAD1F',
     'red': '#E0245E',
@@ -29,12 +22,12 @@ const mainTheme = new Theme()
 
 const darkTheme = new Theme()
   .colors({
-    'alpha': '#14171A',
-    'bravo': '#1f2227',
-    'charlie': '#2e3236',
-    'delta': '#6E767D',
-    'echo': '#B9B9B9',
-    'foxtrot': '#FFFFFF',
+    'alpha': '#000000',
+    'bravo': '#1F1F1F',
+    'charlie': '#353535',
+    'delta': '#606060',
+    'echo': '#8C8C8C',
+    'foxtrot': '#FFF',
   })
 ;
 
