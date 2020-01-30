@@ -2,6 +2,7 @@ const { ThemeBuilder, Theme } = require('tailwindcss-theming');
 
 const mainTheme = new Theme()
   .default()
+  .assignable()
   .colors({
     'alpha': '#FFFFFF',
     'bravo': '#F5F8FA',
