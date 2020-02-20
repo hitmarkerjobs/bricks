@@ -14,9 +14,15 @@ const mainTheme = new Theme()
     'brand': '#FF5800',
     'black': '#000000',
     'white': '#FFFFFF',
+
     'green': '#17BF63',
     'yellow': '#FFAD1F',
     'red': '#E0245E',
+
+    'twitter': '#1DA1F2',
+    'youtube': '#FF0000',
+    'facebook': '#1678f2',
+    'linkedin': '#0866c1',
 
     'transparent': 'transparent',
   })
