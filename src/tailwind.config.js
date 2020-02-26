@@ -43,14 +43,20 @@ module.exports = {
           fontSize: theme('fontSize.sm'),
           borderColor: 'rgb(var(--color-charlie))',
           lineHeight: '1.2',
-          padding: theme('spacing.3'),
           '&:focus': {
             boxShadow: '0 0 0 1px rgb(var(--color-brand));',
             borderColor: 'rgb(var(--color-brand))',
           },
         },
+        'input, textarea': {
+          padding: theme('spacing.3'),
+        },
         select: {
           iconColor: '#A0A0A0',
+          paddingTop: theme('spacing.3'),
+          paddingRight: theme('spacing.8'),
+          paddingBottom: theme('spacing.3'),
+          paddingLeft: theme('spacing.3'),
         },
         checkbox: {
           borderRadius: '0',
