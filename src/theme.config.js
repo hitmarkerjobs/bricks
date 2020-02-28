@@ -31,7 +31,7 @@ const mainTheme = new Theme()
 const darkTheme = new Theme()
   .colors({
     'alpha': '#000000',
-    'bravo': '#232323',
+    'bravo': '#191919',
     'charlie': '#383838',
     'delta': '#606060',
     'echo': '#8C8C8C',
