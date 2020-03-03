@@ -35,6 +35,29 @@ module.exports = {
       '9': '9',
       '10': '10',
     },
+    fill: theme => ({
+      'current': 'currentColor',
+
+      'alpha': 'rgb(var(--color-alpha))',
+      'bravo': 'rgb(var(--color-bravo))',
+      'charlie': 'rgb(var(--color-charlie))',
+      'delta': 'rgb(var(--color-delta))',
+      'echo': 'rgb(var(--color-echo))',
+      'foxtrot': 'rgb(var(--color-foxtrot))',
+
+      'brand': 'rgb(var(--color-brand))',
+      'black': 'rgb(var(--color-black))',
+      'white': 'rgb(var(--color-white))',
+
+      'green': 'rgb(var(--color-green))',
+      'yellow': 'rgb(var(--color-yellow))',
+      'red': 'rgb(var(--color-red))',
+
+      'twitter': 'rgb(var(--color-twitter))',
+      'youtube': 'rgb(var(--color-youtube))',
+      'facebook': 'rgb(var(--color-facebook))',
+      'linkedin': 'rgb(var(--color-linkedin))',
+    }),
     customForms: theme => ({
       default: {
         'input, textarea, select': {
