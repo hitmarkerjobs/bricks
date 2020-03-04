@@ -1,7 +1,7 @@
 {
   "name": "@hitmarker/bricks",
   "description": "",
-  "version": "1.0.21",
+  "version": "1.0.22",
   "author": "Hitmarker",
   "dependencies": {
     "tailwindcss": "1.2.0-canary.5",
