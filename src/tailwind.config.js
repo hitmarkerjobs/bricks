@@ -38,11 +38,6 @@ module.exports = {
       'green': 'rgb(var(--color-green))',
       'yellow': 'rgb(var(--color-yellow))',
       'red': 'rgb(var(--color-red))',
-
-      'twitter': 'rgb(var(--color-twitter))',
-      'youtube': 'rgb(var(--color-youtube))',
-      'facebook': 'rgb(var(--color-facebook))',
-      'linkedin': 'rgb(var(--color-linkedin))',
     }),
     customForms: theme => ({
       default: {
